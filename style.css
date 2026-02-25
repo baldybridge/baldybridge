@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Times New Roman", serif;
+  background: white;
+  color: #111;
+}
+
+header {
+  background: #111;
+  color: white;
+  padding: 20px 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  gap: 15px; width: 50;
+}
+
+.logo-img {
+  width: 100px;
+}
+
+.logo-container span {
+  color: #c40000;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #c40000;
+}
+
+.hero {
+  background: #c40000;
+  color: white;
+  padding: 100px 5%;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 30px;
+  background: #111;
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+}
+
+.btn:hover {
+  background: white;
+  color: #c40000;
+}
+
+.products {
+  padding: 80px 5%;
+  text-align: center;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+  margin-top: 40px;
+}
+
+.product-card {
+  border: 1px solid #eee;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: 0.3s;
+  background: white;
+}
+
+.product-card img {
+  width: 90%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.product-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.product-card h3 {
+  padding: 15px;
+  color: #c40000;
+}
+
+.why {
+  background: #111;
+  color: white;
+  padding: 80px 5%;
+  text-align: center;
+}
+
+.why-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.contact {
+  padding: 80px 5%;
+  text-align: center;
+}
+
+footer {
+  background: #111;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* RESPONSIVE */
+
+@media(max-width:1024px) {
+  .product-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media(max-width:600px) {
+  nav ul {
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+  .product-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .why-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero h2 {
+    font-size: 28px;
+  }
+}
