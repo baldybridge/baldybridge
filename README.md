@@ -1,16 +1,21 @@
-## Hi there 👋
+# BaldyBridge
 
-<!--
-**baldybridge/baldybridge** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+BaldyBridge est une entreprise spécialisée dans l’import-export de produits variés depuis la Chine vers le Bénin, offrant des solutions rapides et fiables pour les particuliers et les professionnels.
 
-Here are some ideas to get you started:
+## Nos Produits
+- Chaussures et accessoires tendance
+- Articles pour bébé et enfants
+- Produits du quotidien et articles divers
+  
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Nos Services
+- Importation directe depuis la Chine
+- Livraison rapide au Bénin
+- Support client pour toutes vos commandes
+
+## Technologies du site
+- HTML & CSS pour le design et la mise en page
+- GitHub Pages pour l’hébergement gratuit du site vitrine
+
+## Objectif
+Présenter de manière claire et attractive l’activité de BaldyBridge et faciliter la découverte de nos produits et services par nos clients au Bénin.
